@@ -1,0 +1,54 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of Rio and Myisha, both wearing glasses and white attire, holding hands under a floral arch">
+  <defs>
+    <style>
+      .line { fill:none; stroke:#F3E9D7; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round; }
+      .fillGold { fill:#C9A15D; }
+      .fillCream { fill:#F3E9D7; }
+      .soft { opacity:0.85; }
+    </style>
+  </defs>
+
+  <!-- floral arch -->
+  <g class="line soft">
+    <path d="M40,80 C60,20 140,10 170,60 C190,95 160,120 130,110" />
+    <path d="M560,80 C540,20 460,10 430,60 C410,95 440,120 470,110" />
+    <circle class="fillGold" cx="55" cy="55" r="5"/>
+    <circle class="fillGold" cx="95" cy="35" r="5"/>
+    <circle class="fillGold" cx="140" cy="45" r="5"/>
+    <circle class="fillGold" cx="545" cy="55" r="5"/>
+    <circle class="fillGold" cx="505" cy="35" r="5"/>
+    <circle class="fillGold" cx="460" cy="45" r="5"/>
+  </g>
+
+  <!-- ground line -->
+  <path class="line" d="M60,380 Q300,395 540,380" />
+
+  <!-- Groom (Rio) -->
+  <g transform="translate(210,120)">
+    <path class="line" d="M20,0 Q30,-14 40,0 Q46,10 40,20 Q30,30 20,20 Q14,10 20,0 Z"/> <!-- head -->
+    <path class="line" d="M8,6 Q30,-6 52,6" /> <!-- hair -->
+    <path class="line" d="M8,16 h44" /> <!-- glasses bridge -->
+    <circle class="line" cx="17" cy="16" r="8"/>
+    <circle class="line" cx="43" cy="16" r="8"/>
+    <path class="line" d="M30,32 v14" /> <!-- neck -->
+    <path class="line" d="M6,46 Q30,36 54,46 L60,150 Q30,165 0,150 Z" /> <!-- white shirt body -->
+    <path class="line" d="M6,46 L-16,110 M54,46 L76,110" /> <!-- arms -->
+    <path class="line" d="M0,150 L-6,220 M60,150 L66,220" /> <!-- trousers -->
+    <path class="line" d="M-16,105 Q10,120 25,150" /> <!-- clasped hand toward bride -->
+  </g>
+
+  <!-- Bride (Myisha) -->
+  <g transform="translate(330,118)">
+    <path class="line" d="M18,10 Q40,-16 62,10 Q68,30 55,44 Q40,54 25,44 Q12,30 18,10 Z"/> <!-- hijab -->
+    <path class="line" d="M20,26 h40" />
+    <circle class="line" cx="29" cy="26" r="8"/>
+    <circle class="line" cx="51" cy="26" r="8"/>
+    <path class="line" d="M40,54 v10" />
+    <path class="line" d="M4,64 Q40,50 76,64 L86,180 Q40,196 -6,180 Z" /> <!-- long white dress -->
+    <path class="line" d="M4,64 L-20,120 M76,64 L100,120" />
+    <path class="line" d="M-20,115 Q5,128 20,150" /> <!-- clasped hand -->
+  </g>
+
+  <!-- joined hands mark -->
+  <circle class="fillGold soft" cx="300" cy="270" r="4"/>
+</svg>

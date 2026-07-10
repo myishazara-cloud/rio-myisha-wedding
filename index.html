@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rio & Myisha — Wedding Invitation</title>
+<meta name="description" content="Undangan Pernikahan Rio & Myisha — 12 September 2026">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ COVER / ENVELOPE SCREEN ============ -->
+<div id="cover">
+  <div class="cover-inner">
+    <p class="eyebrow">The Wedding Of</p>
+    <img class="cover-illustration" src="assets/img/couple-illustration.svg" alt="Illustration of Rio and Myisha">
+    <h1 class="couple-names-cover font-script">Rio &amp; Myisha</h1>
+    <p class="font-ui" style="font-size:.85rem;opacity:.85;">12 September 2026</p>
+
+    <div class="guest-box">
+      <p class="to-label">Kepada Yth. Bpk/Ibu/Saudara/i</p>
+      <p class="guest-name" id="guest-name">Tamu Undangan</p>
+    </div>
+
+    <button class="btn" id="open-invitation">
+      <img class="envelope-icon" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='4' y='10' width='40' height='28' rx='4' fill='none' stroke='%232a1420' stroke-width='2'/%3E%3Cpath d='M6 12 L24 28 L42 12' fill='none' stroke='%232a1420' stroke-width='2'/%3E%3C/svg%3E" alt="">
+      <br>Open Invitation
+    </button>
+  </div>
+</div>
+
+<!-- ============ MAIN CONTENT ============ -->
+<main id="main">
+
+  <!-- Verse -->
+  <section>
+    <img class="vine tl" src="assets/img/vine-corner.svg" alt="">
+    <div class="container center">
+      <p class="verse-arabic">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ</p>
+      <p class="verse-translation">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu merasa tenteram kepadanya. Dia jadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir."</p>
+      <p class="verse-source">Q.S. Ar-Rum : 21</p>
+    </div>
+  </section>
+
+  <!-- Couple bios -->
+  <section class="alt">
+    <div class="container">
+      <p class="eyebrow center">Mempelai</p>
+      <h2 class="section-title">With Love</h2>
+
+      <div class="couple-card">
+        <div class="avatar-frame">
+          <img src="assets/img/photo-groom.jpg" alt="Rio" onerror="this.style.display='none'; this.closest('.avatar-frame').innerHTML+='<span style=\'font-family:Jost,sans-serif;font-size:.7rem;color:%237a1c48;padding:8px;text-align:center;\'>Ganti dengan foto Rio<br>(assets/img/photo-groom.jpg)</span>'">
+        </div>
+        <p class="name">Rio</p>
+        <p class="parents">Putra dari Bapak [Nama Ayah] &amp; Ibu [Nama Ibu]</p>
+      </div>
+
+      <p class="ampersand">&amp;</p>
+
+      <div class="couple-card">
+        <div class="avatar-frame">
+          <img src="assets/img/photo-bride.jpg" alt="Myisha" onerror="this.style.display='none'; this.closest('.avatar-frame').innerHTML+='<span style=\'font-family:Jost,sans-serif;font-size:.7rem;color:%237a1c48;padding:8px;text-align:center;\'>Ganti dengan foto Myisha<br>(assets/img/photo-bride.jpg)</span>'">
+        </div>
+        <p class="name">Myisha</p>
+        <p class="parents">Putri dari Bapak [Nama Ayah] &amp; Ibu [Nama Ibu]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown -->
+  <section>
+    <img class="vine tr" src="assets/img/vine-corner.svg" alt="">
+    <div class="container center">
+      <p class="eyebrow">Save The Date</p>
+      <h2 class="section-title">Menghitung Hari</h2>
+      <div class="countdown" id="countdown">
+        <div class="box"><div class="num" id="cd-days">00</div><div class="lbl">Hari</div></div>
+        <div class="box"><div class="num" id="cd-hours">00</div><div class="lbl">Jam</div></div>
+        <div class="box"><div class="num" id="cd-min">00</div><div class="lbl">Menit</div></div>
+        <div class="box"><div class="num" id="cd-sec">00</div><div class="lbl">Detik</div></div>
+      </div>
+      <p class="font-ui" style="margin-top:16px;font-size:.85rem;opacity:.85;">Jumat, 12 September 2026 — 08.00 WIB</p>
+    </div>
+  </section>
+
+  <!-- Event details -->
+  <section class="alt">
+    <div class="container">
+      <p class="eyebrow center">Acara</p>
+      <h2 class="section-title">Akad &amp; Resepsi</h2>
+
+      <div class="event-card">
+        <p class="kind">Akad Nikah</p>
+        <p class="when">08.00 WIB — Selesai</p>
+        <p class="place">Stay.vie Dinoyo, Surabaya</p>
+      </div>
+      <div class="event-card">
+        <p class="kind">Resepsi</p>
+        <p class="when">12 September 2026</p>
+        <p class="place">Stay.vie Dinoyo, Surabaya</p>
+        <a class="btn outline" style="display:inline-block;margin-top:16px;" target="_blank"
+           href="https://www.google.com/maps/search/?api=1&query=Stay.vie%20Dinoyo%20Surabaya">
+           Lihat Lokasi
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section>
+    <div class="container">
+      <p class="eyebrow center">Our Gallery</p>
+      <h2 class="section-title">Moments</h2>
+      <div class="gallery-grid">
+        <div class="cell"><img src="assets/img/gallery-1.jpg" alt="" onerror="this.parentElement.textContent='gallery-1.jpg'"></div>
+        <div class="cell"><img src="assets/img/gallery-2.jpg" alt="" onerror="this.parentElement.textContent='gallery-2.jpg'"></div>
+        <div class="cell"><img src="assets/img/gallery-3.jpg" alt="" onerror="this.parentElement.textContent='gallery-3.jpg'"></div>
+        <div class="cell"><img src="assets/img/gallery-4.jpg" alt="" onerror="this.parentElement.textContent='gallery-4.jpg'"></div>
+        <div class="cell"><img src="assets/img/gallery-5.jpg" alt="" onerror="this.parentElement.textContent='gallery-5.jpg'"></div>
+        <div class="cell"><img src="assets/img/gallery-6.jpg" alt="" onerror="this.parentElement.textContent='gallery-6.jpg'"></div>
+      </div>
+      <p class="font-ui center" style="font-size:.72rem;opacity:.6;margin-top:10px;">Ganti file di assets/img/gallery-1.jpg dst dengan foto kalian.</p>
+    </div>
+  </section>
+
+  <!-- Gift -->
+  <section class="alt">
+    <div class="container">
+      <p class="eyebrow center">Wedding Gift</p>
+      <h2 class="section-title">Kirim Hadiah</h2>
+      <div class="gift-card">
+        <p class="font-ui" style="font-size:.85rem;">Doa restu Bapak/Ibu/Saudara/i adalah hadiah yang paling berarti bagi kami. Namun jika ingin memberi tanda kasih, dapat melalui:</p>
+        <div class="qr-box" id="qr-box">
+          <img src="assets/img/qr-code.png" alt="QR Code transfer" onerror="this.style.display='none'; this.parentElement.textContent='Tempel QR code kalian di assets/img/qr-code.png'">
+        </div>
+        <div class="acc-row">
+          <span class="acc-name">Bank — a.n. [Nama Pemilik Rekening]</span><br>
+          No. Rek: <span id="acc-number">0000000000</span>
+          <br><button class="copy-btn" onclick="copyAccount()">Salin Rekening</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section>
+    <img class="vine br" src="assets/img/vine-corner.svg" alt="">
+    <div class="container">
+      <p class="eyebrow center">RSVP</p>
+      <h2 class="section-title">Konfirmasi Kehadiran</h2>
+
+      <div class="rsvp-card">
+        <div class="rsvp-counts">
+          <div class="c"><div class="num" id="count-hadir">0</div><div class="lbl">Hadir</div></div>
+          <div class="c"><div class="num" id="count-tidak">0</div><div class="lbl">Tidak Hadir</div></div>
+          <div class="c"><div class="num" id="count-tamu">0</div><div class="lbl">Total Tamu</div></div>
+        </div>
+
+        <form class="rsvp-form" id="rsvp-form">
+          <div>
+            <label for="rsvp-nama">Nama</label>
+            <input type="text" id="rsvp-nama" name="nama" required placeholder="Nama lengkap">
+          </div>
+          <div>
+            <label for="rsvp-hadir">Konfirmasi Kehadiran</label>
+            <select id="rsvp-hadir" name="kehadiran" required>
+              <option value="" disabled selected>Pilih konfirmasi</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+            </select>
+          </div>
+          <div>
+            <label for="rsvp-jumlah">Jumlah Tamu</label>
+            <select id="rsvp-jumlah" name="jumlah" required>
+              <option value="0">0</option>
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+          <div>
+            <label for="rsvp-pesan">Ucapan &amp; Doa</label>
+            <textarea id="rsvp-pesan" name="pesan" placeholder="Tulis ucapan dan doa untuk Rio & Myisha..."></textarea>
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+          <p class="form-msg" id="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guestbook -->
+  <section class="alt">
+    <div class="container">
+      <p class="eyebrow center">Ucapan &amp; Doa</p>
+      <h2 class="section-title">Untuk Rio &amp; Myisha</h2>
+      <div class="wish-list" id="wish-list">
+        <p class="wish-empty">Memuat ucapan...</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="font-script" style="font-size:1.6rem;color:var(--cream);">Rio &amp; Myisha</p>
+    <p>Dengan penuh syukur, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberi doa restu.</p>
+    <p style="margin-top:20px;">Made with love · 2026</p>
+  </footer>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
